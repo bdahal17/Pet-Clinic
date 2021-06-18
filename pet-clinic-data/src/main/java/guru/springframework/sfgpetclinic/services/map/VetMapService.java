@@ -1,9 +1,9 @@
 package guru.springframework.sfgpetclinic.services.map;
 
 import guru.springframework.sfgpetclinic.model.Vet;
-import guru.springframework.sfgpetclinic.services.DataService;
+import guru.springframework.sfgpetclinic.services.VetService;
 
-public class VetMapService extends AbstractMapService<Vet, Long> implements DataService<Vet, Long> {
+public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Iterable<Vet> findAll() {
         return super.findAll();
